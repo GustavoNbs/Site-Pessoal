@@ -1,0 +1,116 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body { 
+    background-image: url(../images/Background.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover    
+    ;}
+
+.cima { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo { font-size: 25px;
+    margin-left: 115px;
+    text-decoration: none;
+    color: #DFBD69;
+    font-weight: 600;
+    }
+
+.nav a { font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-right: 65px;
+    color: white;}
+
+.sm {display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+    color: white;}
+
+.conteudosm {max-width: 600px;
+}
+
+.conteudosm h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.conteudosm h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #DFBD69;
+}
+
+.conteudosm p {
+    font-size: 20px;
+    font-weight: 300;
+    color: inherit;
+}
+
+.conteudosm ul {
+    font-size: 20px;
+    font-weight: 300;
+    color: inherit;
+}
+
+.nav a:hover,
+.nav a.ativo { 
+    color: #DFBD69;}
+
+.redesocialhome {
+    position: absolute;
+    bottom: 40px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesocialhome a { 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #DFBD69;
+    color: #DFBD69;
+    border-radius: 50px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projetos {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projetos:hover {
+    color: #DFBD69;
+}
+
+.minhafoto {
+    position: absolute;
+    top: 50%;
+    right: 180px;
+    transform: translate(0, -50%);
+    border: solid #DFBD69;
+    border-radius: 50%;
+    width: 20%;
+    height: 39%;
+}
+
+    
