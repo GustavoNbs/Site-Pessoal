@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body { background-image: url(assets/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+ body { background-image: url(assets/Background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover    
@@ -46,5 +46,27 @@ body { background-image: url(assets/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwR
 .nav a:hover,
 .nav a.ativo { 
     color: orangered;}
+
+.redesocialhome {
+    position: absolute;
+    bottom: 40px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesocialhome a { 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 50px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
     
