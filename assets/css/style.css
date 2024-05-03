@@ -23,7 +23,7 @@
     align-items: center;
 }
 .logo { font-size: 25px;
-    margin-left: 115px;
+    margin-left: 125px;
     text-decoration: none;
     color: #DFBD69;
     font-weight: 600;
@@ -56,7 +56,7 @@
 }
 
 .conteudosm p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: inherit;
 }
@@ -65,6 +65,10 @@
     font-size: 20px;
     font-weight: 300;
     color: inherit;
+}
+
+.conteudosm span {
+    color: #DFBD69;
 }
 
 .nav a:hover,
@@ -99,7 +103,7 @@
 }
 
 .projetos:hover {
-    color: #DFBD69;
+    color: #b49955;
 }
 
 .minhafoto {
