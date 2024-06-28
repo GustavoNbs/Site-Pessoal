@@ -39,6 +39,7 @@ body {
 .botaoteste {
     background-color: #DFBD69 !important;
     border-radius: 5px !important;
+    margin-right: 5px;
 }
 
 .social-icons .social-icon-link {
@@ -49,4 +50,24 @@ body {
 
 .bordacard {
     border: 2px solid #DFBD69 !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* largura da barra de rolagem */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; /* torna o fundo da barra de rolagem transparente */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5); /* torna o indicador da barra de rolagem semitransparente */
+    border-radius: 5px; /* borda arredondada do indicador */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.8); /* ajusta a transparência ao passar o mouse */
 }
