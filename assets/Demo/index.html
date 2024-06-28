@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Cep</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="Conteudo">
+        <div>
+            <h2 class="Titulo">CEP</h2>
+            <input class="InputTexto" type="text" id="inputCep" maxlength="8" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+            <button class="botaoADD" onclick="buscarCEP()">Consultar CEP</button>
+        </div>
+    
+
+    <div class="dadosCep">
+        <textarea name="CEP" id="cep" readonly></textarea>
+        <textarea name="Logradouro" id="logradouro"></textarea>
+        <textarea name="Bairro" id="bairro"></textarea>
+        <textarea name="Uf" id="uf"></textarea>
+        <textarea name="Cidade" id="cidade"></textarea>
+        <textarea name="IBGE" id="ibge"></textarea>
+    </div>
+</div>
+
+    <div class="Salva" id="SalvarCEP">
+        <h2>Salvar</h2>
+        <button class="btnSalvar" onclick="salvarDados()">Salvar CEP</button>
+        <table class="tabela" id="tabelaCEP"></table>
+    </div>
+    
+    <script src="assets/app.js"></script>
+</body>
+</html>

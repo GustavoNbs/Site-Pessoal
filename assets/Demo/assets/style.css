@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Branco */
+    color: #333; /* Cinza escuro */
+}
+
+.Conteudo {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Cinza claro */
+    border-radius: 10px;
+    background-color: #fff; /* Branco */    
+}
+
+.dadosCep textarea {
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+    resize: none;
+    border-radius: 5px;
+    background-color: #fafafa; /* Branco mais claro */
+    color: #333; /* Cinza escuro */
+    border: 1px solid #ccc; /* Cinza claro */
+}
+
+.Salva {
+    text-align: center;
+}
+
+.btnSalvar {
+    background-color: #DFBD69; /* Dourado */
+    color: #fff; /* Branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSalvar:hover {
+    background-color: #c7a254; /* Dourado mais escuro */
+}
+
+.tabela {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Cinza claro */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    background-color: #fff; /* Branco */
+}
+
+th {
+    background-color: #DFBD69; /* Branco */
+    color: #333; /* Cinza escuro */
+}
+
+.InputTexto, .botaoADD {
+    display: block;
+    margin: 0 auto;
+}
+
+.InputTexto {
+    width: calc(100% - 130px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd; /* Cinza claro */
+    border-radius: 5px;
+    background-color: #fafafa; /* Branco mais claro */
+    color: #333; /* Cinza escuro */
+}
+
+.botaoADD {
+    background-color: #DFBD69; /* Dourado */
+    color: #fff; /* Branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.botaoADD:hover {
+    background-color: #c7a254; /* Dourado mais escuro */
+}
+
+.Titulo {
+    text-align: center;
+    color: #333; /* Cinza escuro */
+}
+
+.btnDeletar {
+    background-color: #dc3545; /* Vermelho */
+    color: #fff; /* Branco */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnDeletar:hover {
+    background-color: #c82333; /* Vermelho mais escuro */
+}
