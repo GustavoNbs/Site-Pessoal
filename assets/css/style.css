@@ -71,3 +71,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.8);
 }
+
+.textodourado {
+    color: #DFBD69 !important;
+}
