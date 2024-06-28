@@ -1,4 +1,5 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,182 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-    <header class="cima">
-        <a href="#" class="logo">Gustavo</a>
-        <nav class="nav">
-            <a id="sobreMimBtn" class="ativo">Sobre Mim</a>
-            <a id="portfolioBtn">Portfolio</a>
-            <a id="contatoBtn">Contato</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top bordabaixo border-body">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Gustavo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#SobreMim">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Skills">Habilidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <section class="sm" id="">
-        <div class="conteudosm" id="conteudoSobreMim">
-            <h1>Gustavo Biscoto Nebes</h1><br>
-            <h2>Cursando Engenharia de Software</h2><br>
-            <p>Olá meu nome é Gustavo Biscoto, tenho 20 anos moro em Curitiba. Atualmente estou cursando Engenharia de Software no Centro Universitario Unicesumar onde estou me dedicando ao estudo de JavaScript e tenho conhecimentos básicos em linguagem C. Embora esteja no início da minha jornada, estou determinado a expandir meu conhecimento e habilidades técnicas. Sou apaixonado por tecnologia e busco constantemente aprender e me desenvolver nessa área.
-                
-            </p>
+
+
+
+    <main class="container my-5">
+        <section id="SobreMim" class="mb-5">
+            <div class="row">
+                <div class="col-md-6 col-12 mb-4 col-centralizada">
+                    <div class="container">
+                        <h1>Sobre Mim</h1><br>
+                        <h2>Gustavo Biscoto Nebes</h2><br>
+                        <p>Olá meu nome é Gustavo Biscoto, tenho 20 anos e moro em Curitiba. Atualmente estou cursando
+                            Engenharia de
+                            Software no Centro Universitario Unicesumar onde estou me dedicando ao estudo de JavaScript
+                            e tenho
+                            conhecimentos básicos em linguagem C. Embora esteja no início da minha jornada, estou
+                            determinado a
+                            expandir meu conhecimento e habilidades técnicas. Sou apaixonado por tecnologia e busco
+                            constantemente
+                            aprender e me desenvolver nessa área.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-centralizada">
+                    <div class="container">
+                        <img src="assets/images/MinhaFoto.jpg" class="img-fluid rounded-circle MinhaFoto" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="Skills" class="mb-5">
+            <h1>Habilidades</h1><br>
+            <h2>Estas são algumas das minha Habilidades</h2><br>
+
+            <!-- Trocar Links da Imagem por Arquivos -->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">   
+                  <div class="card text-bg-dark bordacard">
+                    <img src="https://files.tecnoblog.net/wp-content/uploads/2014/10/html5.jpg" class="card-img-top alturapadrao" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark bordacard">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdDy1MPyAklifM98twCxSuRj7EVJPO0cmHg&s" class="card-img-top alturapadrao" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark bordacard">
+                    <img src="https://cdn-images-1.medium.com/max/990/1*hcws3Wa6u9IqaEZ_4X04uw.jpeg" class="card-img-top alturapadrao" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark bordacard">
+                    <img src="https://w0.peakpx.com/wallpaper/987/583/HD-wallpaper-language-c-chedesign-programming-thumbnail.jpg" class="card-img-top alturapadrao" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title ">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+
+
+
+
+        <section id="Projetos" class="mb-5">
+            <h2>Projetos</h2>
+            <div class="container mt-5 bg-dark text-light">
+                <div class="containerscroll">
+                    <!-- Conteudo Github -->
+                    <div class="card text-bg-dark bordacard mb-3">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="btn botaoteste">Button</a>
+                        </div>
+                      </div>
+                    
+                    <!-- Adicionar Cards -->
+                </div>
+        </section>
+
+
+
+
+        <section id="Contato" class="mb-5">
+            <h2>Contato</h2>
+            <p>Entre em contato através do formulário abaixo.</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark border-body py-3 bordacima">
+        <div class="container text-center">
+            <p>&copy; 2024 Gustavo Biscoto Nebes. Todos os direitos reservados.</p>
+            <ul class="list-inline social-icons">
+                <li class="list-inline-item">
+                    <a href="#" class="social-icon-link"><i class="bx bxl-whatsapp"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="social-icon-link"><i class="bx bxl-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="social-icon-link"><i class="bx bxl-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="social-icon-link"><i class="bx bxl-linkedin"></i></
         </div>
-        <div class="conteudosm" id="conteudoPortfolio" style="display: none;">
-            <h1>Meus Projetos</h1><br>
-            <h2>Estes são alguns dos meus projetos:</h2><br>
-            <ul>
-                <li><a href="https://github.com/GustavoNbs/Site-Pessoal" class="projetos">Pagina Pessoal</a><br>
-                <span>Portfolio Pessoal</span></li>
-                <li><a href="https://github.com/GustavoNbs/ToDoList" class="projetos">Lista de Tarefas<br></a>
-                <span>Ferramenta simples que permite listar e organizar suas tarefas diárias</span></li>
-            </ul>
-        </div>
-        <div class="redesocialhome">
-            <a href="https://twitter.com/uGustavoNbs"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.instagram.com/gustavonbs/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://github.com/GustavoNbs"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/gustavo-biscoto/"><i class='bx bxl-linkedin'></i></a>
-        </div>
-    </section>
-    <img src="assets/images/MinhaFoto.jpg" class="minhafoto">
-    <script src="assets/js/script.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
