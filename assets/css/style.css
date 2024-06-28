@@ -53,21 +53,21 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 10px; /* largura da barra de rolagem */
+    width: 10px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
-    background: transparent; /* torna o fundo da barra de rolagem transparente */
+    background: transparent;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.5); /* torna o indicador da barra de rolagem semitransparente */
-    border-radius: 5px; /* borda arredondada do indicador */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.8); /* ajusta a transparência ao passar o mouse */
+    background: rgba(0, 0, 0, 0.8);
 }
